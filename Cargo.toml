@@ -1,11 +1,10 @@
 [package]
 name = "hello-wasm"
 version = "0.1.0"
-authors = [Daniel A. Farias <danielalmeidafarias2002@gmail.com>"]
 description = "A sample project with wasm-pack"
 license = "MIT/Apache-2.0"
 repository = "https://github.com/danielalmeidafarias/Hello-wasm"
-edition = "2023"
+edition = "2018"
 
 [lib]
 crate-type = ["cdylib"]
